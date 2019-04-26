@@ -1,0 +1,1 @@
+package com.ucontrol.dapweb.service;import com.ucontrol.dapweb.entity.appmodels.Model;public interface TableModelDevaService {    int importModel(Model model);    Model selectAll();}

@@ -1,0 +1,40 @@
+<!--device analysis application model-->
+<application name="deva">
+	<unit index="1" name="Unit#1">
+		<system index="1" name="给水系统">
+			<device index="1" name="Device1">
+				<item pt_id="4009"/>
+				<item pt_id="4010"/>
+				<item pt_id="4011"/>
+				<item pt_id="4012"/>
+			</device>
+			<device index="2" name="Device2">
+				<item pt_id="4000"/>
+				<item pt_id="4001"/>
+				<item pt_id="4002"/>
+				<item pt_id="4012"/>
+			</device>
+			<item pt_id="4012"/>
+			<item pt_id="4013"/>
+		</system>
+		<system index="2" name="制粉系统">
+			<device index="1" name="Device1">
+				<item pt_id="1"/>
+				<item pt_id="2"/>
+				<item pt_id="3"/>
+			</device>
+			<device index="2" name="Device2">
+				<item pt_id="1"/>
+				<item pt_id="11"/>
+				<item pt_id="12"/>
+				<item pt_id="13"/>
+			</device>
+			<item pt_id="6"/>
+			<item pt_id="7"/>
+			<item pt_id="8"/>
+		</system>
+	</unit>
+<!--	<unit index="2" name="Unit#2"/>
+	<unit index="3" name="Unit#3"/>
+	<unit index="4" name="Unit#4"/>-->
+</application>

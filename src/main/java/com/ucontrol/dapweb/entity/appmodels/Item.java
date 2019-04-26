@@ -1,0 +1,1 @@
+package com.ucontrol.dapweb.entity.appmodels;public class Item {    public Item(int pt_id){        this.pt_id = pt_id;    }    private int pt_id;    public int getPt_id() {        return pt_id;    }    public void setPt_id(int pt_id) {        this.pt_id = pt_id;    }}

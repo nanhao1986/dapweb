@@ -1,0 +1,1 @@
+package com.ucontrol.dapweb.utils;import org.springframework.boot.CommandLineRunner;import org.springframework.stereotype.Component;/** * 启动后执行 */@Componentpublic class StartupLoading implements CommandLineRunner {    @Override    public void run(String... args) throws Exception {    }}

@@ -1,0 +1,1 @@
+package com.ucontrol.dapweb.service;import com.ucontrol.dapweb.entity.Point;import java.util.ArrayList;public interface InfluxService {    boolean ping();    ArrayList<Point> getPointByName(String name);}

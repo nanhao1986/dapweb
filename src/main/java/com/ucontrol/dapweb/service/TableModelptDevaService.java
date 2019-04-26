@@ -1,0 +1,1 @@
+package com.ucontrol.dapweb.service;import com.ucontrol.dapweb.entity.TableModelptDeva;import com.ucontrol.dapweb.entity.appmodels.Model;import java.util.ArrayList;public interface TableModelptDevaService {    int importModel(Model model);    ArrayList<TableModelptDeva> selectByLevelAndIndex(int model_level, int model_index);}
